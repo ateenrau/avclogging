@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nkvh-gms",
+      "handler": "nkvh-gm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nkvh-gms/count",
+      "handler": "nkvh-gm.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nkvh-gms/:id",
+      "handler": "nkvh-gm.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nkvh-gms",
+      "handler": "nkvh-gm.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nkvh-gms/:id",
+      "handler": "nkvh-gm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nkvh-gms/:id",
+      "handler": "nkvh-gm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

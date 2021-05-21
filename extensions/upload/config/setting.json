@@ -1,0 +1,9 @@
+{
+    
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "caikeo-com",
+        "api_key": "523533664249845",
+        "api_secret": "n5jaoB9QQV-l9JbtxhKSwtG5VhM"
+    }
+}

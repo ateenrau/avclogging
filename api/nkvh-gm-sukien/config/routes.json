@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nkvh-gm-sukiens",
+      "handler": "nkvh-gm-sukien.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nkvh-gm-sukiens/count",
+      "handler": "nkvh-gm-sukien.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nkvh-gm-sukiens/:id",
+      "handler": "nkvh-gm-sukien.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nkvh-gm-sukiens",
+      "handler": "nkvh-gm-sukien.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nkvh-gm-sukiens/:id",
+      "handler": "nkvh-gm-sukien.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nkvh-gm-sukiens/:id",
+      "handler": "nkvh-gm-sukien.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

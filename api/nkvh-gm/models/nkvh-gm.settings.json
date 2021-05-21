@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nkvh_gms",
+  "info": {
+    "name": "nkvh_gm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "truongca": {
+      "type": "string"
+    },
+    "trucgianmay": {
+      "type": "string"
+    },
+    "trucphu": {
+      "type": "string"
+    },
+    "ca": {
+      "type": "string"
+    },
+    "kip": {
+      "type": "string"
+    },
+    "ngay": {
+      "type": "date"
+    },
+    "nkvh_gm_sukiens": {
+      "collection": "nkvh-gm-sukien"
+    }
+  }
+}

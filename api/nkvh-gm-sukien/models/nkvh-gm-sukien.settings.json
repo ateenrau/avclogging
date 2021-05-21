@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nkvh_gm_sukiens",
+  "info": {
+    "name": "nkvh_gm_sukien"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ngaygio": {
+      "type": "datetime"
+    },
+    "noidung": {
+      "type": "string"
+    }
+  }
+}
